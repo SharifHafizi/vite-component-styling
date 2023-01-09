@@ -1,11 +1,9 @@
-import styles from "./layout.module.css";
+import styles from "./Header.module.css";
 
 export default function Header() {
   return (
     <div>
-      <h1 className={styles.Header}>This is Header</h1>
-      <h2>this is new</h2>
-      <h3>this is h3</h3>
+      <h1 className={styles.header}>This is Header with module css.</h1>
     </div>
   );
 }
